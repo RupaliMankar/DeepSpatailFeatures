@@ -3,7 +3,7 @@ from dataload import  DataGeneratorAutoPredictCNN
 from dataPrepare import loaddataCNN
 from dataPrepare import compileimages
 from tensorflow.keras import backend as K
-from models import autounet
+from models.autounet import autounet
 import matplotlib.pyplot as plt
 from tensorflow import keras
 
